@@ -81,6 +81,14 @@
       "placeholder_path": "./photos/Concert/IMG_7151-Edit-Couple.placeholder.jpg"
     },
     {
+      "width": 3456,
+      "height": 3456,
+      "path": "./photos/Concert/IMG_8081-5-Edit.jpg",
+      "compressed_path": "./photos/Concert/IMG_8081-5-Edit.min.jpg",
+      "compressed": false,
+      "placeholder_path": "./photos/Concert/IMG_8081-5-Edit.placeholder.jpg"
+    },
+    {
       "width": 2048,
       "height": 1910,
       "path": "./photos/Concert/IMG_6031.jpg",
@@ -145,6 +153,14 @@
       "compressed_path": "./photos/Music Videos/IMG_8559.min.jpg",
       "compressed": false,
       "placeholder_path": "./photos/Music Videos/IMG_8559.placeholder.jpg"
+    },
+    {
+      "width": 1365,
+      "height": 2048,
+      "path": "./photos/Music Videos/IMG_9241.jpg",
+      "compressed_path": "./photos/Music Videos/IMG_9241.min.jpg",
+      "compressed": false,
+      "placeholder_path": "./photos/Music Videos/IMG_9241.placeholder.jpg"
     },
     {
       "width": 4567,
