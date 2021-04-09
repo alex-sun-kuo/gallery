@@ -332,6 +332,43 @@ class HorizontalRenderer extends Renderer {
   }
 }
 
+/**
+ * Renders the photos in columns and rows...really hacky code
+ */
+class CustomRenderer extends Renderer {
+  render(config) {
+    for (var section in config.data) {
+      var section = this.createSection(config,
+        section,
+        this.getPhotos(config, config.photos(section)));
+      this.rootElem().appendChild(section);
+    }
+  }
+
+  /**
+   * Creates an album section
+   */
+  createSection(config, section, photos) {
+    var verticalRenderer = new VerticalRenderer("gallery");
+    var horizontalRenderer = new HorizontalRenderer("gallery");
+
+    if (section == "Concert I" || section == "Music Videos I")
+    {
+      // make deep copy of config and reset the max height for vertical
+      var configCopy = JSON.parse(JSON.stringify(config))
+      configCopy.maxHeight = 1000;
+      return verticalRenderer.createSection(configCopy, section, photos);
+    }
+    else if (section == "Concert II" || section == "Music Videos II")
+    {
+      // make deep copy of config and reset the max height for horizontal
+      var configCopy = JSON.parse(JSON.stringify(config))
+      configCopy.maxHeight = 600;
+      return horizontalRenderer.createSection(configCopy, section, photos);
+    }
+  }
+}
+
 
 /**
  * Wrapper for a photo

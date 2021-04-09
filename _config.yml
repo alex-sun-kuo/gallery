@@ -10,7 +10,8 @@ full_name: Alex Sun
 
 # The type of layout
 # Options: ROWS, SQUARES, COLUMNS
-layout_style: COLUMNS
+# new option: CUSTOM
+layout_style: CUSTOM
 
 # Variables below are default. Feel free to customize the values below, but do
 # not remove the property.

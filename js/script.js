@@ -12,6 +12,9 @@ function reqListener() {
     case SQUARES:
       renderer = new SquareRenderer(id);
       break;
+    case CUSTOM:
+      renderer = new CustomRenderer(id);
+      break
   }
   var config = new Config(JSON.parse(this.responseText), configuration);
   renderer.render(config);
