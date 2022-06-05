@@ -3,10 +3,10 @@
 #############################
 
 # The title that appears on the tab
-title: Alex Sun's Gallery
+title: Alex Sun Kuo's Gallery
 
 # The title on the web page
-full_name: Alex Sun
+full_name: Alex Sun Kuo
 
 # The type of layout
 # Options: ROWS, SQUARES, COLUMNS
@@ -43,7 +43,7 @@ name: Gallery
 description: Photography Portfolio
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Alex Sun
+author: Alex Sun Kuo
 
 # Your email if you want it to be linked on the contact page
 author_email: alexkuo98@gmail.com
