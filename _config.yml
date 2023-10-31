@@ -3,10 +3,10 @@
 #############################
 
 # The title that appears on the tab
-title: Alex Sun Kuo's Gallery
+title: Alex Kuo's Gallery
 
 # The title on the web page
-full_name: Alex Sun Kuo
+full_name: Alex Kuo
 
 # The type of layout
 # Options: ROWS, SQUARES, COLUMNS
@@ -29,7 +29,7 @@ columns: 3
 max_height: 1200
 
 # Handle
-instagram: alex.sun.photo
+instagram: alex.kuo.photo
 
 ######################
 # END OF CONFIG CODE #
@@ -43,7 +43,7 @@ name: Gallery
 description: Photography Portfolio
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Alex Sun Kuo
+author: Alex Kuo
 
 # Your email if you want it to be linked on the contact page
 author_email: alexkuo98@gmail.com
